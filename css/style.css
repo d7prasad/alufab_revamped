@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+.showcase {
+    height: 500px;
+}
+
+.section {
+    position: absolute;
+    background-image: url(../images/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section .container {
+    padding-bottom: 25px;
+}
+
+.section .copy {
+    font-size: 20px;
+}
+
+.section .contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .contact-details div {
+    padding-right: 10px;
+}
+
+.section .address {
+    padding-top: 25px;
+}
+
+.section-b {
+    height: 500px;
+    padding-top: 30px;
+    background-color: dimgrey;
+}
+.section-b h2 {
+    text-align: center;
+}
+.section-b .row{
+    padding-top: 10px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 25px;
+    color: #33c3f0;
+}
+
+.section-b img {
+    width: 100%;
+}
+
+.section-b a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.section-b p {
+    color: black;
+    text-align: left;
+}
+
+.section-b button {
+    justify-content: left;
+    text-align: left;
+}
+
+.section-c {
+    height: 600px;
+}
+
+.section-c h3{
+    padding-top: 20px;
+}
+
+.section-c .contact-details {
+    display: flex;
+}
+
+
+.section-c .contact-details div{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    height: 50px;
+    background-color: cadetblue;
+    color:white;
+}
+
+.footer p{
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-top: 9px;
+    margin-bottom: 1.5rem;
+}
