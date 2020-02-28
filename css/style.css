@@ -2,9 +2,7 @@ body{
     margin: 0;
 }
 
-.showcase {
-    height: 500px;
-}
+
 
 .section {
     position: absolute;
@@ -27,6 +25,7 @@ body{
 
 .section .container {
     padding-top: 65px;
+    padding-bottom: 25px;
 }
 
 .section .copy {
