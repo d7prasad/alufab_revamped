@@ -6,7 +6,8 @@ body{
 
 .section {
     position: absolute;
-    background-image: url(../images/showcase.jpg);
+    /* background-image: url(../images/yellow-and-blue-surface-2457274.jpg); */
+    background-color: whitesmoke;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
